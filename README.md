@@ -88,9 +88,9 @@ EX：找出大於500M的檔案→ -size +500M
 -name
 EX：找出為照片的檔案→ -name "*.jpg"
 -type
-EX：-type f→ 一般檔案;  -type d→ 一般目錄
+EX：-type f→ 一般檔案;-type d→ 一般目錄
 -user
-EX：同時找兩個擁有者的檔案→-user user1 -o -user user210
+EX:同時找兩個擁有者的檔案→-user user1 -o -user user210
 which filname:
 -a=系統會顯示所有被找到的命令執行檔之完整路徑
 -n=<文件名長度>指定文件名長度，指定的長度必須大於 或等於所有文件中最長的文件名。
@@ -101,9 +101,9 @@ which filname:
 #linux檔案內容查閱:
 *cat:從第一行顯示檔案內容、形成新檔案
 cat -n file1 > file2→把file1的檔案內容加上行號後輸入file2檔案
--n  → 由1開始對所有輸出的行數編號
->    → 將多個文件覆蓋  到目標文件中
->>  → 將多個文件追加到目標文件中，不覆蓋
+-n=由1開始對所有輸出的行數編號
+>= 將多個文件覆蓋  到目標文件中
+>>=將多個文件追加到目標文件中，不覆蓋
 *tac:從最後一行開始顯示
 tac -r -s 'x\|[^x]' test.log→一個 接著一個字符的反轉一個文件
 *-r→將分 隔符  作為基  礎正規表達是處理
@@ -116,7 +116,7 @@ EX:more+100 testfile=從第100行開始顯示testfile的文檔內容
 *Ctrl+B:返回上一 
 
 *less=顯示檔案室允許用戶既可以向前又可以向後翻頁閱讀檔案
-EX:ps -ef|less→ps查看進程信息並通過less分頁顯示
+EX:ps-ef|less→ps查看進程信息並通過less分頁顯示
 j:下一行
 k:上一行
 G:移動到最後一行
