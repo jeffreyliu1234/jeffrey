@@ -10,6 +10,7 @@
 */media：可用來做為光碟、軟碟片、隨身碟與其他分割區的自動掛載點
 */tmp：供全部使用者暫時放置檔案的目錄
 */var：系統執行時, 內容經常變動的資料或暫存檔(log file), 都會放置在這個目錄裡
+
 #檔案命名原則、副檔名
 區分英文大小寫=小寫為主
 檔案上限256字
@@ -40,9 +41,9 @@ ls-al=顯示目錄下的所有檔案(包含隱藏檔)詳細資訊
 
 #Linux指令-編輯文檔
 ctrl c=顯示游標所在
-Ctrl W=查詢命令，按下後會跳轉到末行的反白位置，輸入要查詢的內容在按enter及可。
+Ctrl W=查詢命令，按下後會跳轉到末行的反白位置，輸入要查詢的內容在按enter及可
 vi/vim
-一般模式：可使用上下左右進行游標宜動、刪除字元及複製貼上檔案資料。
+一般模式：可使用上下左右進行游標宜動、刪除字元及複製貼上檔案資料
 編輯模式：編輯文字
 命令列模式:
 :w=將編輯的資料寫入硬碟檔案中
@@ -67,18 +68,18 @@ cp=複製檔案或目錄
 #linux壓縮檔案
 gzip○
 壓縮：
-*gzip FileName○
+*gzip FileName
 解壓縮：
 *gunzip FileName.gz
-*gzip -d FileName.gz8
+*gzip -d FileName.gz
 xz:
 壓縮：
-*xz -z FileName○
+*xz -z FileName
 解壓縮：
 *xz -d FileName.xz
 tar.gz:
 壓縮：
-*tar -zcvf FileName.tar.gz DirName○
+*tar -zcvf FileName.tar.gz DirName
 解壓縮：
 *tar -zxvf FileName.tar.gz9
 
